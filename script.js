@@ -23,7 +23,7 @@ btns.forEach(function (btn) {
         if(count > 0) 
             value.style.color = "green";
         if(count == 0)
-            value.style.color = "yellow";
+            value.style.color = "#102a42";
         value.textContent = count; //assigning value as counter
     });
 });
